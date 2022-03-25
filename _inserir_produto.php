@@ -21,7 +21,7 @@ $fornecedor = $_POST['fornecedor']; //Recebe o valor do atributo name fornecedor
 
     <h4>Produto Adicionado com sucesso!</h4>
     <div style="padding-top:20px">
-    <a href="index.php" role="button" class="btn btn-sm btn-primary">Cadastrar novo Produto</a>
+    <a href="adicionar_produto.php" role="button" class="btn btn-sm btn-primary">Cadastrar novo Produto</a>
     </div>
 
 
