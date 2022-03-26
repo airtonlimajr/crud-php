@@ -66,7 +66,7 @@ $id = $_GET['id'];
 
         <div class="form-group">
         <label class="form-label">Nome Produto</label>
-        <input type="string" class="form-control" name="nomeproduto" value="<?php echo $nroproduto ?>">
+        <input type="string" class="form-control" name="nomeproduto" value="<?php echo $nomeproduto ?>">
         </div>
        
 

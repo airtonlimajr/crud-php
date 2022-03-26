@@ -49,9 +49,23 @@
         <div class="form-group">
         <label class="form-label">Categoria</label>
         <select class="form-control"  name="categoria">
-        <option value="1">Periféricos</option>
-        <option value="2">Hardware</option>
-        <option value="3">Software</option>
+
+         <?php 
+
+          include 'conexao.php';
+
+        $sql = "SELECT * FROM categoria order by nome_categoria ASC";
+        $buscar = mysqli_query($conexao, $sql);
+
+        while ($array = mysqli_fetch_array($buscar)){
+            $id_categoria = $array['id_categoria'];
+            $nome_categoria = $array['nome_categoria']
+
+       
+        ?>
+        <option><?php echo $nome_categoria ?></option>
+
+        <?php  } ?>
         </select>
         </div>
 
@@ -63,9 +77,23 @@
         <div class="form-group">
         <label >Fornecedor</label>
         <select class="form-control" name="fornecedor">
-            <option value="1">Fornecedor A</option>
-            <option value="2">Fornecedor B</option>
-            <option value="3">Fornecedor C</option>
+        <?php 
+
+            include 'conexao.php';
+
+            $sql2 = "SELECT * FROM fornecedor order by nome_form ASC";
+            $buscar2 = mysqli_query($conexao, $sql2);
+
+            while ($array2 = mysqli_fetch_array($buscar2)){
+            $id_form = $array2['id_form'];
+            $nome_form = $array2['nome_form']
+
+
+            ?>
+
+
+           <option><?php echo $nome_form ?></option>
+            <?php  } ?>
         </select>
         </div>
 
