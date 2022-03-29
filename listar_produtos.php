@@ -55,7 +55,7 @@
 
 </table>
 <div style="texte-align: righat">
-<a href="index.php"  role="button" class="btn btn-sm btn-dark">Voltar</a>
+<a href="menu.php"  role="button" class="btn btn-sm btn-dark">Voltar</a>
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

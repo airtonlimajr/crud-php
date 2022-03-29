@@ -99,7 +99,7 @@
 
         <div style="text-align: right; margin-top: 2%;">
             <button type="submit" id="botao"  class="btn btn-sm">Cadastrar</button>
-            <a href="index.php"  role="button" class="btn btn-sm btn-dark">Voltar</a>
+            <a href="menu.php"  role="button" class="btn btn-sm btn-dark">Voltar</a>
         </div>
 
         

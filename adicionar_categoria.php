@@ -19,7 +19,7 @@
         </div>
         <div style="margin-top:15px; text-align: right;">
             <button type="submit" class="btn btn-primary btn-sm" >Cadastrar</button> 
-            <a href="index.php"  role="button" class="btn btn-sm btn-dark">Voltar</a>   
+            <a href="menu.php"  role="button" class="btn btn-sm btn-dark">Voltar</a>   
         </div>
         
     </form>
