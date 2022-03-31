@@ -9,6 +9,16 @@
 </head>
 <body>
 
+<?php 
+
+$_SESSION['usuario'];
+
+if(!isset($_SESSION['usuario'])) {
+  header('Location: index.php');
+}
+
+?>
+
 <div class="container" style="margin-top:100px">
 <div class="row">
 
@@ -51,6 +61,15 @@
   </div>
 
 </div>
+<div class="col-sm-6" style="margin-top:20px">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Aprovar Usuários</h5>
+        <p class="card-text">Aprovar usuários cadastrados.</p>
+        <a href="aprovar_usuario.php" class="btn btn-primary">Aprovar Usuários</a>
+      </div>
+    </div>
+  </div>
 
 </div>
 

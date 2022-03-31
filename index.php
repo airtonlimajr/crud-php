@@ -29,20 +29,25 @@ box-shadow: 22px 17px 36px -31px rgba(0,0,0,0.75);
             <div class="img-locked" style="text-align: center">
                 <img src="https://cdn-icons-png.flaticon.com/512/3427/3427189.png" width="125px" height="125px" >
             </div>
-            <form>
+            <form action="index1.php" method="post">
                 <div class="form-group">
                     <label>Usuário</label>
                     <input type="text" name="usuario" class="form-control" placeholder="Usuário" autocomplete="off" required>
                 </div>
                 <div class="form-group">
                     <label>Senha</label>
-                    <input type="password" name="usuario" class="form-control" placeholder="Senha" autocomplete="off" required>
+                    <input type="password" name="senha" class="form-control" placeholder="Senha" autocomplete="off" required>
                 </div>
-            </form>
+            
             <div style="text-align: right" >
             <button type="submit"  class="btn btn-sm btn-success" style="margin-top: 5%">Entrar</button>
             </div>
+            </form>
         </div>
+    </div>
+
+    <div style="text-align: center; font-size: 12px">
+        <p>Você não possui cadastro? Clique <a href="cadastro_usuario_externo.php">aqui</a></p>
     </div>
 
 
