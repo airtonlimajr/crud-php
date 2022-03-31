@@ -34,7 +34,7 @@ $nivel =$array['nivel_usuario'];
 <?php
 
 if (($nivel ==1)||($nivel ==2)){
-  
+
 ?>
 
   <div class="col-sm-6">
@@ -100,7 +100,9 @@ if (($nivel ==1)||($nivel ==2)){
 
 
    </div>
-
+   <div style="text-align: right; margin-top: 20px">
+            <a href="index.php" class="btn btn-sm btn-dark" >Sair</a>
+        </div>
 
 
 
